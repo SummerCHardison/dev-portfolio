@@ -11,6 +11,7 @@ header{
     line-height: 100px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -26,6 +27,7 @@ header h1{
 
 nav ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -57,4 +59,27 @@ nav ul li a {
     top: 5px;
     padding: 10px;
     text-align: center;
+}
+
+#accessibility-horiseon img{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    border: 20px;
+    border-radius: 20px;
+}
+
+/* #accessibility-horiseon p {
+    position: relative;
+    background-color: white;
+    color: black;
+    width: 10%;
+    text-align: center;
+}  */
+
+#smaller-projects img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: 20%;
 }
