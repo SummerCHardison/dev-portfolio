@@ -3,10 +3,17 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     background-color: rgb(83, 83, 83);
+    background-image: linear-gradient(
+    rgb(155, 155, 155) 0%,
+    rgb(83, 83, 83) 100%
+    );
 }
 
 header{
-    background-color: rgb(68, 131, 255);
+    background-image: linear-gradient(
+    rgb(68, 193, 255) 0%,
+    rgb(0, 122, 183) 100%
+    );
     color:black;
     line-height: 100px;
     width: 100%;
@@ -55,31 +62,61 @@ nav ul li a {
 }
 
 #about-me p {
+    
     position: relative;
     top: 5px;
     padding: 10px;
     text-align: center;
 }
 
-#accessibility-horiseon img{
-    width: 60%;
-    height: 60%;
-    margin-left: 20%;
-    border: 20px;
-    border-radius: 20px;
+
+#accessibility-horiseon {
+    position: relative;
+    margin: auto;
+    width: 65%;
+    border-radius: 25px;
+    background-image: url("../images/accessiblity-horiseon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1500%;
 }
 
-/* #accessibility-horiseon p {
-    position: relative;
-    background-color: white;
-    color: black;
-    width: 10%;
-    text-align: center;
-}  */
+#accessibility-horiseon p {
+    padding-top: 20%;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
 
-#smaller-projects img {
-    width: 30%;
-    height: 30%;
-    position: relative;
-    left: 20%;
+#smaller-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#landing-page img, #prework-study-guide img {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-headers {
+    color: black;
+    background-color: beige;
+    margin-top: 0;
+    text-align: center;
+}
+
+#contact-me {
+    background-color: black;
+    color: white;
+}
+
+#contact-me h3 {
+    text-align: center;
+}
+
+#contact-me ul li a {
+    color: white;
 }
