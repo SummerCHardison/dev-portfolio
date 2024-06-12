@@ -6,6 +6,9 @@ This web application is a portfolio that links to my deployed web applications t
 
 ## To application
 
+![screen shot of application](assets/images/application.png)
+[https://summerchardison.github.io/dev-portfolio/](https://summerchardison.github.io/dev-portfolio/)
+
 ## Credits
 Summer Hardison
 
